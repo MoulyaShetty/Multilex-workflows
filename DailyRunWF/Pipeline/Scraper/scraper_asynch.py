@@ -12,7 +12,7 @@
 from newspaper import Article
 import requests
 import nltk
-#nltk.download('punkt')                         # Please uncomment if you're running this program for first time
+nltk.download('punkt')                         # Please uncomment if you're running this program for first time
 import threading
 from GoogleNews import GoogleNews
 from selenium import webdriver
@@ -4678,7 +4678,7 @@ logging.info("last line of scraper")
 
 if __name__ == "__main__":
     x=time.time()
-    multilex_scraper(r"C:\Users\ujwal\OneDrive\Desktop\test",r"C:\Users\ujwal\OneDrive\Desktop\test")
+    multilex_scraper("","")
     y=time.time()
     print()
     print()
